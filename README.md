@@ -4,7 +4,7 @@
 
 ```
 $ sudo chmod -R 777 addons
-$ sudo chmod -R 777 etc/odoo
+$ sudo chmod -R 777 etc
 ```
 
 ### Start the container:
