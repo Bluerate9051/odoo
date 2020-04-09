@@ -2,8 +2,10 @@
 
 ### Make the container to access these folders:
 
-```$ sudo chmod -R 777 addons
-$ sudo chmod -R 777 etc/odoo```
+```
+$ sudo chmod -R 777 addons
+$ sudo chmod -R 777 etc/odoo
+```
 
 ### Start the container:
 
