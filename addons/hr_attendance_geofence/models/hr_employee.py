@@ -6,12 +6,13 @@ import requests
 
 class HrEmployee(models.Model):
     _inherit = 'hr.employee'
-    # _inherit = 'hr.employee']
 
     def get_current_lat_lng(self):
         """Get current geolocationIP latitude and longitude.
            ===================Note==========================
-           Latitude and longitude is not accurate
+           Latitude and longitude may not accurate because of 
+           not being able to use Google Maps packages cause 
+           of sanctions on Sudan.
            """
         ip_request = requests.get('https://get.geojs.io/v1/ip.json')
         current_ip = ip_request.json()['ip']
